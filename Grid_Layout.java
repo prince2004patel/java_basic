@@ -1,3 +1,6 @@
+//GridLayout arranges components in a grid with a specified number of rows and columns. Each cell in the grid can hold a component. 
+//This layout manager is ideal for creating a uniform grid of components, such as a calculator or a game board.
+
 import javax.swing.*;
 import java.awt.*;
 
