@@ -1,3 +1,7 @@
+//BorderLayout divides the container into five regions: NORTH, SOUTH, EAST, WEST, and CENTER. 
+//Components can be added to these regions, and they will occupy the available space accordingly. 
+//This layout manager is suitable for creating interfaces with distinct sections, such as a title bar, content area, and status bar.
+
 import javax.swing.*;
 import java.awt.*;
 
