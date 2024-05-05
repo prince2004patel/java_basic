@@ -1,3 +1,6 @@
+//FlowLayout is a simple layout manager that arranges components in a row, left to right, wrapping to the next line as needed. 
+//It is ideal for scenarios where components need to maintain their natural sizes and maintain a flow-like structure.
+
 import javax.swing.*;
 import java.awt.*;
 
