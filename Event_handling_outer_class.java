@@ -35,3 +35,4 @@ class Event_handling_outer_class extends Frame {
         new Event_handling_outer_class();
     }
 }
+//see the file other
