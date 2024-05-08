@@ -1,0 +1,32 @@
+//this is all for program that  copy text file1 to file2
+
+
+ Java I/O is used to process the input and produce the output.
+ Java program perform input and output through stream.
+ A stream is linked to a physical device by the java I/O system to make input and output
+operation in java.
+ In general, Stream means continuous flow of data, a sequence of data.
+
+1. Byte Stream I/O Classes Hierarchy
+ Byte streams are defined by using two classes hierarchies.
+ At the top are two abstract classes: InputStream and OutputStream.
+ The InputStream is used to read data from a source.
+ The OutputStream is used for writing data to a destination.
+
+2.Character Stream I/O Classes Hierarchy
+ Character stream are defined by using two classes hierarchies.
+ At the top are two abstract classes: Reader and Writer.
+ The Reader is used to read data from a source.
+ The Writer is used for writing data to a destination.
+
+To create a file use the following syntax:
+ Ex:
+File f = new File ("C:/java/hello.txt");
+
+To open a file for reading, create object of FileInputStream.
+ Ex:
+FileInputStream f = new FileInputStream("C:/java/hello");
+
+To open a file for writing, create object of FileOutputStream.
+ Ex:
+FileOutputStream f = new FileOutputStream("C:/java/hello");
