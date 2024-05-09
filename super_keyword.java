@@ -5,7 +5,7 @@
 
 class Animal2{
     public void animalsound(){
-        System.out.println("the animal make diff. sound");
+        System.out.println("all animal have diff. sound");
     }
 }
 class Dog2 extends Animal2{
