@@ -6,14 +6,14 @@ public class Arithmetic_exception {
         int d, a;
         try {
             d = 0;
-            a = 42 / d; // Attempting division by zero deliberately
+            a = 42 / d; // Attempting division by zero 
         } catch (ArithmeticException e) {
             System.out.println("Division by zero");
         }
 
         try {
             int x[] = {1};
-            x[42] = 99; // Attempting to access an index that is out of bounds deliberately
+            x[42] = 99; // Attempting to access an index that is out of bounds 
             System.out.println("This will not be printed");
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array index out of bounds");
